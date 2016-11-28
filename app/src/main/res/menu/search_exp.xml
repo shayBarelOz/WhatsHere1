@@ -1,16 +1,18 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto" >
+	<!--this is fix for the old issue with always attribute-->
 
 	<item
         android:id="@+id/menu_search"
         android:icon="@drawable/icon_search"
-        android:showAsAction="always"
+		app:showAsAction="always"
         android:title="@string/search"
         android:actionViewClass="android.widget.SearchView"
         />
 	<item
         android:id="@+id/menu_loc"
         android:icon="@drawable/icon_location"
-        android:showAsAction="always"
+		app:showAsAction="always"
         android:title="@string/nearby"
         />
 </menu>
