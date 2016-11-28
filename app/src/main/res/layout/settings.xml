@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/pad_10dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/lbl_setting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pad_1dp"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_3dp"
+            android:background="@color/side_menu_divider" />
+
+        <TextView
+            android:id="@+id/lbl1"
+            style="@style/lbl_setting2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/lbl_setting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anna Mccoy"
+            android:textSize="@dimen/txt_12sp"
+            android:textStyle="normal" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:background="@color/side_menu_divider" />
+
+        <TextView
+            android:id="@+id/lbl2"
+            style="@style/lbl_setting2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_pos" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:background="@color/side_menu_divider" />
+
+        <Switch
+            android:id="@+id/switch1"
+            style="@style/switch_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/push_notif" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:background="@color/side_menu_divider" />
+
+        <Switch
+            android:id="@+id/switch2"
+            style="@style/switch_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email_notif" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/lbl_setting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_20dp"
+            android:text="@string/help" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pad_1dp"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_3dp"
+            android:background="@color/side_menu_divider" />
+
+        <TextView
+            android:id="@+id/lbl3"
+            style="@style/lbl_setting2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help1" />
+         <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:background="@color/side_menu_divider" />
+
+          <TextView
+              android:id="@+id/lbl4"
+              style="@style/lbl_setting2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/faq" />
+
+         <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:background="@color/side_menu_divider" />
+
+          <TextView
+              android:id="@+id/lbl5"
+              style="@style/lbl_setting2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/tnc" />
+
+         <View
+            android:id="@+id/view9"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:background="@color/side_menu_divider" />
+        
+    </LinearLayout>
+
+</ScrollView>

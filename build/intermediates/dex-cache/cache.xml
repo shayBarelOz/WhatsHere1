@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.8.0_d66f74f5af8adbb3cd1a6f3e2499b7aafc47c373/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.8.0_256f95c54b0dd79d6a8f98db5c052473fdeaad71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.8.0_db0c4d6ade552d064b425e94d20ec385670c9a58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_05a5ad8024c4f63b812ff740db1e5de842a37c85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_e335658a0fe260deac8d713290a7625f53232229/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0b8e087da59c0b062c33f49a335e59f907086da2">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.8.0_754505b3270d0b9b17f6915917c40ca7c47f6a28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_b96423000c61688b58580a4a2ff5db06258f422f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.8.0_a08d04b1dda0d17ff2f059af633ebd160d494d42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_9d52f175bbe9d4e41f1191e336a5f9706ba6dd2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.8.0_e492496e1f06508e693cce72f50dcde4e85facad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.8.0_04c69b241cc30e897e492345b21b6d6a83f03606/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_a354d692658277dadcc0ee455d68468d1882f5a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.8.0_b589898e638dbd28b6a9c50cf93c21ed8bb4a55f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_246ff9fdbbbff040ffb772afebb1ebd699d82be9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.8.0_c6b7bd7a8c7dafa97002ead5952ac077a9d51f30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.8.0_b6425e066a1ed6658124f9af2f6e4f13d49777f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_4867f1a3aaa04a8469f7d2de87416824e561d981/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.8.0_7ad94ee9f6d9fd5c00e8503ee121aa23f960dc7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9c7aa2311aa7b017f5085f7b040cc0968aba80a2">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2dbe7bdda41f2e3795a97a8731e7055f172f4b79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.8.0_5ba9f9f456ec9901fa9c1235492a1d46e657be77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_85f521429f4d1326cee468d24c78f137414220ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.8.0_893f137b2fd9ffd96baa91866fb5e158930696a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_9f48d43e20b81259c6ddc1b5299f8a659e7a2ab0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.8.0_e1646b5d5bbb11bae557b0e075f2c514de083bfe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.8.0_a67086beb4feaa7b92b6e6867291f769d881e9f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.8.0_6ff177cd4bef8abaccde1e5b84866c06e97f0b8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.8.0_42030af33832a65a0985b46cad53bb1e5cef9505/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.8.0_6f325cbb57127a7716428fc69353e39b09633204/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.8.0_1ae8eefa200b27447d84e42d95d734b1dcbb7314/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.8.0_7e9cadac77cbf81bfa34f5155babadf754253387/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.8.0_53dfb6a7e4d8a814f67160e2074386e23b064494/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.8.0_1d7d9ad86c2c34427d0b6c7842e32a210b3786b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="74ac7cbcf0de4a88e59612dc3a9e3f9e71acb4ca">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.8.0_0a409c5ca98caabcad88e4f7a6f22b99fc0915a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.8.0_d3d68024ed7e63014950f9f96e7c0539896ec04b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.8.0_0dad47ea783ed4dc3666a295b43e3f827e8caf05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.8.0_76e101a43a43e687da6dc9771484a4c21abf7a95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_446ccd95de288c92daad5c842d2edea9ff54e7a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_5402e2fcd02116be3c00ffada5e9e88be004d202/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_8adbf010543ea3390db1b8f47d82e0dbe9d6df82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.8.0_f7173da0d272c00384563039e0c7f4ae83ca1d5e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.8.0_4bac2621d9ce37d61caa6bf650082e40020a610b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.8.0_7a4780c59b3909a542325a32446140761590ca15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_276d881750fe5d44ee2f003a54493c12334afec9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a972970c8beddb69c198f61f3fc55f0606a7dfe3">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.8.0_3d024075a876baec3758dffc3bb09b0331699410/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.8.0_f41840d17be1c0ec7d87447c0f3cc791c06907c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.8.0_c0a64916bbf7369478582f99863e5781a40c6358/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_ec848e3e3ed3972a8979f8c0bf2d4ca7b33a42b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.8.0_f20229b787bea8f049fe638871fc31213d386d18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.8.0_bcca080ec893526d0d95b510471c82cb991c6156/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_95a9d9597c41a943a1d0e3f44ae4a7fb7520a10e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e56f31b23ddb067f95f01255295167db7c798612">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.8.0_69c88d7f2399277403700a99129e0711ed44b92e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d358528c5a8731a6e19bca910cbb3fd755ee31">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-9.8.0_b43fa1dd6c67499d8af67259698c0cd367fcff3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.8.0_8573fc79132185cf9634c015699291b9e43517aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_be8a5639ddd70a818e65bc300e7afa4e17a7a11f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_b086e1278422024af6690cb547f5a0ec091d15d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aef6500912f32ab991a453d033b3483940d894b3">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fb52b8c89752eb0a81373375d3d628ea88be82d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_c0fe47d5551386f2f1bd1902b0ad9f10fc303d7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_ac112a0a1bd6b30752cc53800dbcfee4c8978a1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c81df6bd515398ebe45089b0b16c55752a131f6a">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.8.0_cfc6da553fe680c9ac28a67757116ca44e9fa368/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.8.0_11ddaf0f0cb55d47e5d5ec862c2b18884a28359f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.8.0_adf0fe280088de3cca2983bb11799e3f06cbefe3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fbb3885c40e431cd2b0dc69c0cab2bf6d5da7b43">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.8.0_2c94c0db9fb290de4889e4c19e5acd31df73c34b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_07ed13c1a54c38387470c2feda7d467ba1b72c54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.8.0_f1cca4d2cf4f1021934ef597677c1a41df758e06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_407222ca55d5bf893a34e2f059a4c591d4095436/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.8.0_d15bdc9583db914c965c86f4c9bbbceeb82dafca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_38424afc3965d8b125fae388a5f5017c7f130f60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.8.0_4efad2e6c253a894ca97eecf805f36f7dc00a866/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shaybar-elozana/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_4e68f2444b822e1779d05864338505b7d7f43f5a/classes.dex" />
+    </item>
+
+</items>

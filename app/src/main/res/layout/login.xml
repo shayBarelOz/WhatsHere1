@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_red"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/pad_20dp"
+    tools:context=".SplashScreen" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/pad_30dp"
+        android:src="@drawable/login_logo" />
+
+    <EditText
+        android:id="@+id/editText1"
+        style="@style/edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_30dp"
+        android:background="@drawable/login_btn"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_16sp" />
+
+    <Button
+        android:id="@+id/btnForget"
+        style="@style/btn_main_red_lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_20dp"
+        android:text="@string/forget_pwd" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_10dp"
+        android:src="@drawable/or_separator" />
+    
+    <Button
+        android:id="@+id/btnReg"
+        style="@style/btn_main_red_lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_10dp"
+        android:text="@string/sign_up" />
+</LinearLayout>

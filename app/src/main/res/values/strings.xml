@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">What\'s Here</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="search">Search</string>
+
+    <string name="account">Account</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget_pwd">Forget Password?</string>
+    <string name="sign_up">&lt;u>Sign up&lt;/u></string>
+    <string name="settings">SETTINGS</string>
+    <string name="acc_pos">Accuracy Position</string>
+    <string name="push_notif">Push Notifications</string>
+    <string name="email_notif">Email Notifications</string>
+    <string name="help">HELP</string>
+    <string name="help1">Help</string>
+    <string name="faq">F.A.Q</string>
+    <string name="tnc">Terms &amp; Conditions</string>
+    <string name="nearby">Nearby</string>
+    <string name="detail_temp">If there is one word that sums up the aesthetic of Superba Food + Bread, the Venice eatery that is the second act to Superba Snack Bar, it may very well be \"transparency.\" The restaurant is, quite literally, out in the open...</string>
+    
+    
+    
+
+</resources>

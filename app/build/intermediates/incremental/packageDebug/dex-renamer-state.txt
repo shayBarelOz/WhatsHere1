@@ -1,0 +1,7 @@
+#Mon Nov 28 17:06:53 IST 2016
+base.0=/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fb52b8c89752eb0a81373375d3d628ea88be82d6
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2dbe7bdda41f2e3795a97a8731e7055f172f4b79/classes.dex
+base.1=/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2dbe7bdda41f2e3795a97a8731e7055f172f4b79
+file.0=/Users/shaybar-elozana/Desktop/WhatsHere1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fb52b8c89752eb0a81373375d3d628ea88be82d6/classes.dex
