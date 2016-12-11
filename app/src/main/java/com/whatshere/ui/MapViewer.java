@@ -184,7 +184,6 @@ public class MapViewer extends CustomFragment implements OnClickListener
 		@Override
 		public View getInfoWindow(Marker marker)
 		{
-
 			render(marker, mContents);
 			return mContents;
 		}
@@ -259,9 +258,9 @@ public class MapViewer extends CustomFragment implements OnClickListener
 	{
 
 		// FIXME: 28/11/2016 do this according to map fregmanet
-		//MapFragment mapFragment = (MapFragment) getFragmentManager()
-		//		.findFragmentById(R.id.map);
-		//mapFragment.getMapAsync(onMapReady(R.id.map));
+//		MapFragment mapFragment = (MapFragment) getFragmentManager()
+//				.findFragmentById(R.id.map);
+//		//mapFragment.getMapAsync(onMapReady(R.id.map));
 		//mMap = mMapView.getMap();
 
 

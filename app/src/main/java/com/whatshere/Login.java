@@ -34,11 +34,11 @@ public class Login extends CustomActivity
 	 */
 	private void setupView()
 	{
-		Button b = (Button) setTouchNClick(R.id.btnReg);
-		b.setText(Html.fromHtml(getString(R.string.sign_up)));
+		//Button b = (Button) setTouchNClick(R.id.btnReg);
+		//b.setText(Html.fromHtml(getString(R.string.sign_up)));
 
 		setTouchNClick(R.id.btnLogin);
-		setTouchNClick(R.id.btnForget);
+		//setTouchNClick(R.id.btnForget);
 	}
 
 	/* (non-Javadoc)

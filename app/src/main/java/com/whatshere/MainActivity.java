@@ -43,6 +43,10 @@ public class MainActivity extends CustomActivity
 	 * @see com.newsfeeder.custom.CustomActivity#onCreate(android.os.Bundle)
 	 */
 	@Override
+
+	/**
+	 * This function will be called once login button will be pressed
+	 */
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);

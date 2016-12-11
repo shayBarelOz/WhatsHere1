@@ -7,6 +7,9 @@
 	<dimen name="pad_15dp">15dp</dimen>
 	<dimen name="pad_20dp">20dp</dimen>
 	<dimen name="pad_30dp">30dp</dimen>
+	<dimen name="pad_40dp">40dp</dimen>
+	<dimen name="pad_100dp">200dp</dimen>
+
 	<dimen name="pad_125dp">125dp</dimen>
 	
 	<dimen name="txt_7sp">7sp</dimen>
