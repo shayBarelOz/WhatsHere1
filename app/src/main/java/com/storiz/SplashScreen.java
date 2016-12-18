@@ -1,4 +1,4 @@
-package com.whatshere;
+package com.storiz;
 
 import android.app.Activity;
 import android.content.Intent;

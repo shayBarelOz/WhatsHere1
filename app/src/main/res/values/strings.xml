@@ -5,6 +5,7 @@
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="search">Search</string>
+    <string name="facebook_app_id">1235794779820393</string>
 
     <string name="account">Account</string>
     <string name="email">Email Address</string>

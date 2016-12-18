@@ -9,6 +9,14 @@
     android:padding="@dimen/pad_20dp"
     tools:context=".SplashScreen" >
 
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        />
+
+
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
@@ -36,14 +44,22 @@
         <!--android:inputType="textPassword" >-->
     <!--</EditText>-->
 
-    <Button
+    <!--<com.facebook.login.widget.LoginButton-->
+        <!--android:id="@+id/login_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--/>-->
+
+    <com.facebook.login.widget.LoginButton
         android:id="@+id/btnLogin"
         style="@style/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/pad_30dp"
-        android:background="@drawable/login_btn" />
+      />
 
+    <!--android:background="@drawable/login_btn"-->
     <!--<Button-->
         <!--android:id="@+id/btnForget"-->
         <!--style="@style/btn_main_red_lt"-->
