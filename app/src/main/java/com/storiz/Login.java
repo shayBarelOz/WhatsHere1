@@ -1,7 +1,9 @@
 package com.storiz;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.widget.TextView;
 
 import com.facebook.AccessToken;
@@ -32,6 +34,11 @@ public class Login extends CustomActivity
 	private LoginButton loginButton;
 	private CallbackManager callbackManager;
 	private AccessToken accessToken;
+	private static Bundle UserValues ;
+	private Intent seconderyIntent = null;
+	private boolean requestNotFinished = true;
+	private static Context context;
+
 
 	/* (non-Javadoc)
 	 * @see android.support.v4.app.FragmentActivity#onCreate(android.os.Bundle)
@@ -41,6 +48,10 @@ public class Login extends CustomActivity
 	{
 		super.onCreate(savedInstanceState);
 		setupView();
+		UserValues = new Bundle();
+		Login.context = getApplicationContext();
+
+
 	}
 
 	/**
@@ -74,6 +85,7 @@ public class Login extends CustomActivity
 								"Auth Token: "
 								+ loginResult.getAccessToken().getToken()
 				);
+
 			}
 
 			@Override
@@ -115,27 +127,152 @@ public class Login extends CustomActivity
 							GraphResponse response) {
 						// Application code
 						final JSONObject jsonObject = response.getJSONObject();
-						String nombre = "";
-						String email = "";
-						String id = "";
-						try {
-							nombre = jsonObject.getString("name");
-							email =  jsonObject.getString("email");
 
-							System.out.println(nombre);
-							System.out.println(email);
-							System.out.println(id);
+//						try {
 
-						} catch (JSONException e) {
-							e.printStackTrace();
-						}
+							Handler mainHandler = new Handler(getAppContext().getMainLooper());
+
+							Runnable myRunnable = new Runnable() {
+								@Override
+								public void run() {
+
+									try {
+
+										String name = "";
+										String email = "";
+										String birthday = "";
+										String gender = "";
+										String picture = "";
+										String id = "";
+
+										id = jsonObject.getString("id");
+										name = jsonObject.getString("name");
+										email = jsonObject.getString("email");
+										birthday = jsonObject.getString("birthday");
+										gender = jsonObject.getString("gender");
+										picture = jsonObject.getJSONObject("picture").getJSONObject("data").getString("url");
+
+										System.out.println(picture);
+
+										// putting all values in map
+										UserValues.putString("id", id);
+										UserValues.putString("name", name);
+										UserValues.putString("email", email);
+										UserValues.putString("birthday", birthday);
+										UserValues.putString("gender", gender);
+										UserValues.putString("picture", picture);
+
+										Intent i = new Intent(Login.this, MainActivity.class);
+										i.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+										i.putExtra("UserValues", UserValues);
+										startActivity(i);
+										finish();
+
+										} catch (JSONException e) {
+									requestNotFinished = false;
+									e.printStackTrace();
+								}
+
+								} // This is your code
+							};
+							mainHandler.post(myRunnable);
+
+
+//			Intent i = new Intent(Login.this, MainActivity.class);
+//			i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//			i.putExtra("UserValues",UserValues);
+//			startActivity(i);
+//			finish();
+
+							//requestNotFinished = false;
+
+//							seconderyIntent = new Intent(Login.this, MainActivity.class);
+//							seconderyIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//							seconderyIntent.putExtra("UserValues",UserValues);
+//							startActivity(seconderyIntent);
+////							finish();
+
+//
+							// run this from the main thread !!!
+//							(new Handler(Looper.getMainLooper())).post(new Runnable() {
+//								@Override
+//								public void run() {
+//									Intent i = new Intent(Login.this, MainActivity.class);
+//									i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//									i.putExtra("UserValues",UserValues);
+//									startActivity(i);
+//									finish();
+//								}
+//							});
+//		                  Intent i = new Intent(, MainActivity.class);
+//			              i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//			              i.putExtra("UserValues",UserValues);
+//			              startActivity(i);
+//							finish();
+
+//							System.out.println(nombre);
+//							System.out.println(email);
+//							System.out.println(id);
+
+//						} catch (JSONException e) {
+//							requestNotFinished = false;
+//							e.printStackTrace();
+//						}
 					}
 				});
 		Bundle parameters = new Bundle();
-		parameters.putString("fields", "id,name,email");
+		parameters.putString("fields", "id,name,email,birthday,gender,picture");
 		request.setParameters(parameters);
 		request.executeAsync();
+		//request.getParameters();
+		//request.setCallback();
+//		try {
+//			Thread.sleep(10000);
+//
+//			Intent i = new Intent(Login.this, MainActivity.class);
+//			i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//			i.putExtra("UserValues",UserValues);
+//			startActivity(i);
+//			finish();
+//		}catch (InterruptedException e){
+//			e.printStackTrace();
+//		}
 
+
+
+//		if (resultCode == RESULT_OK) {
+//			Toast.makeText(this,"result_ok",Toast.LENGTH_LONG).show();
+//		}
+//
+//		while (requestNotFinished){
+//			//MainThread.sleep
+//			Toast.makeText(this,"inside while loop !!!!!",Toast.LENGTH_LONG).show();
+//		}
+//
+//		if (!requestNotFinished){
+//			Intent i = new Intent(this, MainActivity.class);
+//			i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//			i.putExtra("UserValues",UserValues);
+//			startActivity(i);
+//			finish();
+//		}
+
+
+			//if (requestCode == 1 && UserValues.size() > 0 ) {
+			// if all fine :
+//			Intent i = new Intent(this, MainActivity.class);
+//			i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//			i.putExtra("UserValues",UserValues);
+//			startActivity(i);
+//			finish();
+		//}
+
+
+
+	}
+
+	public static Context getAppContext() {
+		return Login.context;
 	}
 
 	/* (non-Javadoc)

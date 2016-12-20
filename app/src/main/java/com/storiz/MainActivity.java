@@ -1,6 +1,5 @@
 package com.storiz;
 
-import java.util.ArrayList;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -13,6 +12,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
+import android.widget.Toast;
+
 import com.storiz.custom.CustomActivity;
 import com.storiz.custom.CustomFragment;
 import com.storiz.model.Data;
@@ -20,6 +21,8 @@ import com.storiz.ui.LeftNavAdapter;
 import com.storiz.ui.MainFragment;
 import com.storiz.ui.Profile;
 import com.storiz.ui.Settings;
+
+import java.util.ArrayList;
 
 /**
  * The Activity MainActivity will launched after the Login and it is the
@@ -39,6 +42,8 @@ public class MainActivity extends CustomActivity
 	/** The drawer toggle. */
 	private ActionBarDrawerToggle drawerToggle;
 
+	private Bundle UserValues;
+
 
 
 	/* (non-Javadoc)
@@ -56,6 +61,17 @@ public class MainActivity extends CustomActivity
 
 		setupDrawer();
 		setupContainer(1);
+		Intent intent = getIntent();
+		// all user values.
+			UserValues = intent.getBundleExtra("UserValues");
+
+		Toast.makeText(this, "User values are: " + UserValues.getString("id")
+				                                +UserValues.getString("name")
+						+UserValues.getString("email")
+						+UserValues.getString("birthday")
+						+UserValues.getString("picture")
+						+UserValues.getString("gender")
+				, Toast.LENGTH_LONG).show();
 	}
 
 	/**
