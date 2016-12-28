@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.storiz.custom.CustomActivity;
@@ -59,8 +60,7 @@ public class MainActivity extends CustomActivity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		setupDrawer();
-		setupContainer(1);
+
 		Intent intent = getIntent();
 		// all user values.
 			UserValues = intent.getBundleExtra("UserValues");
@@ -72,6 +72,9 @@ public class MainActivity extends CustomActivity
 						+UserValues.getString("picture")
 						+UserValues.getString("gender")
 				, Toast.LENGTH_LONG).show();
+
+		setupDrawer();
+		setupContainer(1);
 	}
 
 	/**
@@ -116,6 +119,12 @@ public class MainActivity extends CustomActivity
 		View header = getLayoutInflater().inflate(R.layout.left_nav_header,
 				null);
 
+		//// FIXME: 22/12/2016 set also image .
+		((TextView) header.findViewById(R.id.Name))
+				.setText(UserValues.getString("name"));
+		((TextView) header.findViewById(R.id.Email))
+				.setText(UserValues.getString("email"));
+
 		drawerLeft.addHeaderView(header);
 
 		final ArrayList<Data> al = new ArrayList<Data>();
@@ -146,6 +155,10 @@ public class MainActivity extends CustomActivity
 	}
 
 	/**
+	 * this will be called after choosing one of the setting manu objects.
+	 */
+
+	/**
 	 * Setup the container fragment for drawer layout. This method will setup
 	 * the grid view display of main contents. You can customize this method as
 	 * per your need to display specific content.
@@ -166,7 +179,10 @@ public class MainActivity extends CustomActivity
 		if (pos == 0)
 		{
 			f = new Profile();
-			title = "Anna Mccoy";
+			f.setArguments(UserValues);
+			title = UserValues.getString("name");
+			//title = "Anna Mccoy";
+
 		}
 		else if (pos == 1)
 			f = new MainFragment();
@@ -178,6 +194,7 @@ public class MainActivity extends CustomActivity
 		else if (pos == 3)
 		{
 			f = new Settings();
+			f.setArguments(UserValues);
 			title = "Settings";
 		}
 		if (f == null)

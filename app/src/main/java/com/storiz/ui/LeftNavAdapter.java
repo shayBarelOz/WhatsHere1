@@ -1,6 +1,5 @@
 package com.storiz.ui;
 
-import java.util.ArrayList;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
@@ -9,8 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
 import com.storiz.R;
 import com.storiz.model.Data;
+
+import java.util.ArrayList;
 
 /**
  * The Adapter class for the ListView displayed in the left navigation drawer.
@@ -104,6 +106,7 @@ public class LeftNavAdapter extends BaseAdapter
 		TextView lbl = (TextView) convertView.findViewById(R.id.lbl);
 		lbl.setText(f.getTexts()[0]);
 
+		// set the color of element that we are choosing to be red.
 		if (selection == position)
 		{
 			lbl.setTextColor(context.getResources().getColor(R.color.main_red));
@@ -112,6 +115,8 @@ public class LeftNavAdapter extends BaseAdapter
 			convertView.findViewById(R.id.bar).setVisibility(View.VISIBLE);
 		}
 		else
+
+		// if we didn't choose it stay white.
 		{
 			lbl.setTextColor(Color.WHITE);
 			lbl.setCompoundDrawablesWithIntrinsicBounds(f.getResources()[0], 0,

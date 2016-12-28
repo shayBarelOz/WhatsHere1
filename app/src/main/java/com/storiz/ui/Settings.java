@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
 import com.storiz.R;
 import com.storiz.custom.CustomFragment;
 
@@ -24,8 +26,12 @@ public class Settings extends CustomFragment
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState)
 	{
+
+		Bundle params = getArguments();
 		View v = inflater.inflate(R.layout.settings, null);
 
+		((TextView)v.findViewById(R.id.UserName))
+				.setText(params.getString("name"));
 		setTouchNClick(v.findViewById(R.id.lbl1));
 		setTouchNClick(v.findViewById(R.id.lbl2));
 		setTouchNClick(v.findViewById(R.id.lbl3));

@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">What\'s Here</string>
+    <string name="app_name">Storiz</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="search">Search</string>
     <string name="facebook_app_id">1235794779820393</string>
+    <string name="prompt_location">prompt_location</string>
+    <string name="go">go</string>
+    <string name="map_info">map_info</string>
+    <string name="normal">normal</string>
+    <string name="sattelite">sattelite</string>
+    <string name="terrain">terrain</string>
+    <string name="hybrid">hybrid</string>
+    <string name="none">none</string>
+    <string name="current_location">current_location</string>
 
     <string name="account">Account</string>
     <string name="email">Email Address</string>
@@ -23,8 +32,6 @@
     <string name="tnc">Terms &amp; Conditions</string>
     <string name="nearby">Nearby</string>
     <string name="detail_temp">If there is one word that sums up the aesthetic of Superba Food + Bread, the Venice eatery that is the second act to Superba Snack Bar, it may very well be \"transparency.\" The restaurant is, quite literally, out in the open...</string>
-    
-    
-    
+
 
 </resources>

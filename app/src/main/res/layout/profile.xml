@@ -11,22 +11,23 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/profile_bg_top"
             android:gravity="center"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:id="@+id/picViewBackground">
 
+            <!--Fixme: redesign the image in the middle-->
+            <!--need to redesign this important-->
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/picView"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="98dp"
                 android:drawablePadding="@dimen/pad_10dp"
-                android:drawableTop="@drawable/user_pic_large"
-                android:text="Anna Mccoy"
+                android:text=""
                 android:textColor="@color/white"
                 android:textSize="@dimen/txt_16sp" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/headlineName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="a.mccoy@gmail.com"
@@ -34,12 +35,20 @@
                 android:textSize="@dimen/txt_12sp" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/headlineEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a.mccoy@gmail.com"
+                android:textColor="@color/side_menu_divider"
+                android:textSize="@dimen/txt_12sp" />
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="27/09/1982"
                 android:textColor="@color/side_menu_divider"
-                android:textSize="@dimen/txt_12sp" />
+                android:textSize="@dimen/txt_12sp"
+                android:id="@+id/headlineBirthdate" />
         </LinearLayout>
 
         <LinearLayout
@@ -62,7 +71,7 @@
                     android:text="Email" />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/EmailText"
                     style="@style/profile_lbl2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -73,20 +82,20 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/pad_10dp" >
 
-                <TextView
-                    android:id="@+id/textView6"
-                    style="@style/profile_lbl1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Username" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textView6"-->
+                    <!--style="@style/profile_lbl1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="Username" />-->
 
-                <TextView
-                    android:id="@+id/textView7"
-                    style="@style/profile_lbl2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="anna123" />
+                <!--<TextView-->
+                    <!--android:id="@+id/UsernameText"-->
+                    <!--style="@style/profile_lbl2"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="anna123" />-->
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -102,7 +111,7 @@
                     android:text="Name" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/NameText"
                     style="@style/profile_lbl2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -113,40 +122,40 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/pad_10dp" >
 
-                <TextView
-                    android:id="@+id/textView10"
-                    style="@style/profile_lbl1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Surname" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textView10"-->
+                    <!--style="@style/profile_lbl1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="Surname" />-->
 
-                <TextView
-                    android:id="@+id/textView11"
-                    style="@style/profile_lbl2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mccoy" />
+                <!--<TextView-->
+                    <!--android:id="@+id/SurnnameText"-->
+                    <!--style="@style/profile_lbl2"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Mccoy" />-->
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/pad_10dp" >
 
-                <TextView
-                    android:id="@+id/textView12"
-                    style="@style/profile_lbl1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="City" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textView12"-->
+                    <!--style="@style/profile_lbl1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="City" />-->
 
-                <TextView
-                    android:id="@+id/textView13"
-                    style="@style/profile_lbl2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Los Angeles" />
+                <!--<TextView-->
+                    <!--android:id="@+id/CityText"-->
+                    <!--style="@style/profile_lbl2"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Los Angeles" />-->
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -162,7 +171,7 @@
                     android:text="Sex" />
 
                 <TextView
-                    android:id="@+id/textView15"
+                    android:id="@+id/SexText"
                     style="@style/profile_lbl2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -182,7 +191,7 @@
                     android:text="Birth Date" />
 
                 <TextView
-                    android:id="@+id/textView17"
+                    android:id="@+id/BirthDayText"
                     style="@style/profile_lbl2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

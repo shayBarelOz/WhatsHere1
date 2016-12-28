@@ -8,11 +8,12 @@
     android:padding="@dimen/pad_20dp"
     >
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/user_img" />
+    <!-- fixme: add image -->
+    <!--<ImageView-->
+        <!--android:id="@+id/header_img"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/user_img" />-->
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -21,18 +22,18 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Anna Mccoy"
+            android:text=""
             android:textColor="@color/white"
             android:textSize="@dimen/txt_16sp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/Email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="a.mccoy@gmail.com"
+            android:text=""
             android:textColor="@color/side_menu_divider"
             android:textSize="@dimen/txt_12sp" />
     </LinearLayout>
